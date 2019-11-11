@@ -1,0 +1,9 @@
+.dashboard {
+  padding-left: 3rem;
+  width: 75%;
+  @media (max-width: 767px) {
+    padding-left: 0;
+    width: 100%;
+    padding: 1rem;
+  }
+}

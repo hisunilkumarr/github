@@ -1,0 +1,38 @@
+.user {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 25%;
+  @media (max-width: 767px) {
+    flex-basis: 100%;
+    padding: 1rem;
+  }
+}
+.name {
+  font-size: 26px;
+  line-height: 30px;
+  margin-top: 1rem;
+}
+.image {
+  width: 100%;
+  height: auto;
+  border: 1px solid #e1e4e8;
+  border-radius: 3px;
+}
+.githubId {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  color: #666;
+  margin-bottom: 1rem;
+}
+.desc {
+  font-size: 14px;
+  margin: 1rem 0;
+}
+.email,
+.corp,
+.country {
+  margin: 0.5rem 0;
+  font-size: 14px;
+}
